@@ -84,4 +84,4 @@ function iniciarJogo(){
 
 }
 
-let jogo = senIntervalo(iniciarJogo, 100)
+let jogo = setInterval(iniciarJogo, 100)
